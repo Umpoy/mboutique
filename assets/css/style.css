@@ -108,3 +108,12 @@ nav ul li > a {
 .coconut, .vanilla, .lemon, .almond {
     color: white;
 }
+
+.footer {
+    background-color: #df5277;
+    height: 80px;
+    text-align: center;
+    font-size: 12px;
+    padding: 1%;
+    color: white;
+}
