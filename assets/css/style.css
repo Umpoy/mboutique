@@ -65,6 +65,14 @@ nav ul li > a {
 
 }
 
+.gifts img {
+    max-width: 100%;
+}
+/* 
+.gift-boxes, .parties > *{
+    max-width: inherit;
+} */
+
 
 .weekly-menu {
     display: flex;
