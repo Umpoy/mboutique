@@ -59,3 +59,52 @@ nav ul li > a {
 .main-content .row img {
     margin-top: 100px;
 }
+
+
+.weekly-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu-item {
+    width: 126px;
+    height: 140px;
+    background-color: #fffabe;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item > * {
+    height: 25%;
+    vertical-align: middle;
+    padding: 8px;
+    color: #6a6969;
+    font-size: 12px;
+}
+
+.menu-item img {
+    float: right;
+}
+
+.coconut{
+    background-color: #824603;
+}
+
+.vanilla {
+    background-color: #df5277;
+}
+
+.lemon {
+    background-color: #a2304e;
+}
+
+.almond {
+    background-color: #c39005;
+}
+
+.coconut, .vanilla, .lemon, .almond {
+    color: white;
+}
