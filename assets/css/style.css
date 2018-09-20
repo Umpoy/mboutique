@@ -125,8 +125,8 @@ nav ul li > a {
 .contact img {
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-    position: absolute;
+    
+    /* position: absolute; */
 }
 
 .footer {
@@ -135,6 +135,7 @@ nav ul li > a {
     font-size: 12px;
     padding: 1%;
     color: white;
+    margin-top: 23px;
 } 
 
 .footer a {
@@ -143,4 +144,10 @@ nav ul li > a {
 
 .email {
     color: #df5277;
+}
+
+@media only screen and (min-width: 786px){
+    .contact img {
+        transform: translate(50%,50%);
+    }
 }
